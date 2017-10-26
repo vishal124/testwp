@@ -1,0 +1,372 @@
+#ced_pbs_overlay{
+	width:100%;
+	height:100%;
+	opacity:.95;
+	top:0;
+	left:0;
+	display:none;
+	position:fixed;
+	background-color:#313131;
+	overflow:auto;
+	z-index:999999999999;
+}
+img#ced_pbs_close {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    width: 20px;
+}
+div#ced_pbs_popupContact {
+	position:absolute;
+	left:50%;
+	top:17%;
+	margin-left:-202px;
+}
+
+#ced_pbs_overlay #ced_pbs_frm {
+    background-color: #fff;
+    border: 2px solid gray;
+    border-radius: 10px;
+    max-width: 300px;
+    min-width: 250px;
+    padding: 15px;
+}
+
+#ced_pbs_overlay hr {
+	margin:10px -50px;
+	border:0;
+	border-top:1px solid #ccc;
+}
+#ced_pbs_overlay input[type=text] {
+	width:82%;
+	padding:10px;
+	margin-top:30px;
+	border:1px solid #ccc;
+	padding-left:40px;
+	font-size:16px;
+}
+
+#ced_pbs_overlay textarea {
+	
+	width:82%;
+	height:95px;
+	padding:10px;
+	resize:none;
+	margin-top:30px;
+	border:1px solid #ccc;
+	padding-left:40px;
+	font-size:16px;
+	margin-bottom:30px
+}
+#ced_pbs_overlay #submit {
+	text-decoration:none;
+	width:100%;
+	text-align:center;
+	display:block;
+	background-color:#FFBC00;
+	color:#fff;
+	border:1px solid #FFCB00;
+	padding:10px 0;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:5px;
+}
+#ced_pbs_overlay span {
+	color:red;
+	font-weight:700;
+}
+#ced_pbs_overlay button {
+	width:10%;
+	height:45px;
+	border-radius:3px;
+	background-color:#cd853f;
+	color:#fff;
+	font-size:18px;
+	cursor:pointer;
+}
+#ced_pps_shipping_rate input {
+    float: left;
+    width: 100%;
+}
+#ced_pbs_import_upload_csv tbody {
+	vertical-align: top;
+}
+
+.ced_pbs_no_display {
+	display: none;
+}
+#ced_pps_shipping_rate_prod input {
+    width: 100%;
+}
+#ced_pps_shipping_rate_prod .spp-check {
+    padding: 21px 17px 0 0;
+}
+#ced_pbs_csv_import_loading{
+	display:none;
+}
+.ced_spp_left_button{
+	text-align: left;
+}
+.ced_spp_right_button{
+	text-align: right
+}
+.ced_spp_setting{
+	display:none;
+}
+#ced_pbs_import_upload_csv{
+	float: left; 
+	padding: 20px;
+}
+.spp-global-table{
+	padding: 24px 17px 0 0 !important;
+}
+.spp-global-table-row{
+	padding: 22px 1px 1px !important;
+}
+.ced_pbs_shippingrows.widefat th {
+    text-align: center;
+}
+.spp_to_override_ship {
+    float: none !important;
+    width: 0 !important;
+}
+.ced-spp-input{
+	width:10em!important;
+}
+
+.ced-spp-shipping-rows tbody tr td {
+  display: table-cell;
+  padding: 2px !important;
+  vertical-align: middle !important;
+}
+.ced-spp-shipping-rows tbody tr td input {
+  min-width: auto !important;
+}
+/* custom */
+.ced_pbs_overlay{
+	width:100%;
+	height:100%;
+	opacity:.95;
+	top:0;
+	left:0;
+	display:none;
+	position:fixed;
+	background-color:#313131;
+	overflow:auto;
+	z-index:999999999999;
+}
+img.ced_pbs_close {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    width: 20px;
+}
+div.ced_pbs_popupContact {
+	position:absolute;
+	left:50%;
+	top:17%;
+	margin-left:-202px;
+}
+
+.ced_pbs_overlay .ced_pbs_frm {
+    background-color: #fff;
+    border: 2px solid gray;
+    border-radius: 10px;
+    max-width: 300px;
+    min-width: 250px;
+    padding: 15px;
+}
+
+.ced_pbs_overlay hr {
+	margin:10px -50px;
+	border:0;
+	border-top:1px solid #ccc;
+}
+.ced_pbs_overlay input[type=text] {
+	width:82%;
+	padding:10px;
+	margin-top:30px;
+	border:1px solid #ccc;
+	padding-left:40px;
+	font-size:16px;
+}
+
+.ced_pbs_overlay textarea {
+	
+	width:82%;
+	height:95px;
+	padding:10px;
+	resize:none;
+	margin-top:30px;
+	border:1px solid #ccc;
+	padding-left:40px;
+	font-size:16px;
+	margin-bottom:30px;
+}
+.ced_pbs_overlay #submit {
+	text-decoration:none;
+	width:100%;
+	text-align:center;
+	display:block;
+	background-color:#FFBC00;
+	color:#fff;
+	border:1px solid #FFCB00;
+	padding:10px 0;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:5px;
+}
+.ced_pbs_overlay span {
+	color:red;
+	font-weight:700;
+}
+.ced_pbs_overlay button {
+	width:10%;
+	height:45px;
+	border-radius:3px;
+	background-color:#cd853f;
+	color:#fff;
+	font-size:18px;
+	cursor:pointer;
+}
+
+#ced_pps_shipping_rate .ced_pbs_panel, #ced_pps_shipping_rate_category .ced_pbs_content_content_heading {
+    background-color: #0073aa;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width:100%;
+}
+#ced_pps_shipping_rate .ced_pbs_panel h3, #ced_pps_shipping_rate_category .ced_pbs_content_content_heading h3{
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+}
+#ced_pps_shipping_rate .ced_pbs_content_sec, #ced_pps_shipping_rate_category .ced_pbs_content_content_sec {
+    float: none !important;
+    padding: 10px !important;
+    width: 100%;
+    background-color: #fff;
+}
+.ced_pbs_shippingrows.widefat tr th,.ced_pbs_shippingrows.widefat tr td {
+    padding: 10px !important;
+    vertical-align: middle !important;
+    text-align: left;
+}
+.ced_pbs_shippingrows.widefat .check-column.ced-spp-check-style input{
+	margin-left: 0px;
+}
+
+table.ced_pbs_shippingrows.widefat {
+    margin-top: 15px;
+}
+.ced_spp_left_button a.remove.button {
+    background-color: #c9302c;
+    border: 0 none;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #fff;
+}
+.ced_pbs_shippingrows.widefat tfoot tr th{
+	border: 0px;
+}
+
+.ced_pbs_content .ced_pbs_shippingrows.widefat tr td {
+    border-bottom: 1px solid  #e1e1e1;
+}
+
+.ced_pbs_edit, .ced_pbs_cat_edit {
+    background-color: #31b0d5;
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    padding: 3px 10px;
+}
+#ced_pbs_selected_country_code{
+	margin-top: 12px;
+    margin-left: 10%;
+}
+#s2id_ced_pbs_woo_countries {
+    width: 54%;
+}
+#ced_pbs_selected_state_code{
+	margin-top: 12px;
+    margin-left: 10%;
+}
+#s2id_ced_pbs_woo_states {
+    width: 54%;
+}
+.ced_pbs_right{
+	float:right;
+}
+
+.ced_pbs_left{
+	float: left; 
+	padding: 20px 20px 20px 20px;
+}
+.ced_pbs_hidden{
+	display:none;
+}
+#ced_pbs_import_upload_csv.ced_pbs_content_sec table tr td {
+    padding: 0;
+}
+#shipping_rates input.button-primary {
+    width: 150px;
+}
+.ced_pbs_sample_export img {
+    left: 10px;
+    max-width: 30px;
+    position: relative;
+    top: 4px;
+}
+.ced_pbs_edit {
+    cursor: pointer;
+}
+#ced_pps_shipping_rate_prod.ced_pbs_datatable_edit.ced_pbs_shippingrows.widefat.dataTable {
+    width: 100% !important;
+}
+#ced_pps_shipping_rate_prod.ced_pbs_datatable_edit.ced_pbs_shippingrows.widefat.dataTable tr td label{
+margin:auto;
+float:none;
+}
+#ced_pps_shipping_rate_prod_wrapper label {
+    float: none;
+    margin: 10px;
+}
+#ced_pps_shipping_rate_prod_wrapper label select {
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.ced_pbs_variation_wrap
+{
+	width:643px;
+}
+.ced_pbs_content {
+    margin-top: 15px;
+}
+
+#ced_pbs_datatable_id_filter input {
+    float: none;
+    margin-bottom: 15px;
+    width: 75%;
+}
+
+#ced_pbs_datatable_id.ced_pbs_shippingrows.ced_pbs_datatable_id.widefat.dataTable,.ced_pbs_shippingrows.ced_pbs_shippingrowscat.widefat.dataTable,table#shipping_rates  {
+    width: 100% !important;
+}
+#shipping_rates .dataTables_processing {
+    top: 10px !important;
+}
+.ced_pbs_content_content_sec .dataTables_filter{
+	margin-bottom:15px;
+	background-image:none!important;
+	background-color:transparent!important;
+}
+
+
+#ced_pps_cat_wrapper_tr input {
+    width: 144px !important;
+}
+#ced_pps_sku {
+    width: 250px;
+}

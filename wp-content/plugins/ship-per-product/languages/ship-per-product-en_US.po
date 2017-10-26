@@ -1,0 +1,515 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Based Shipping\n"
+"POT-Creation-Date: 2016-09-07 18:14+0530\n"
+"PO-Revision-Date: 2016-09-07 18:14+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"shipping\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: product-based-shipping.php:91
+#: includes/product-based-shipping-options.php:204
+msgid "Settings"
+msgstr ""
+
+#: product-based-shipping.php:113
+msgid ""
+"WooCommerce is not activated. Please install WooCommerce to use the Product "
+"Based Shipping !!!"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:39
+#: includes/product-based-shipping-options.php:77
+#: includes/class-product-based-shipping.php:536
+#: includes/class-product-based-shipping.php:785
+msgid "Product Based Shipping"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:40
+msgid ""
+"This Shipping Method charges shipping cost based on product shipping location"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:68
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:70
+msgid "Enable Product Based Shipping"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:74
+msgid "Method Title"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:76
+msgid "This controls the title which user sees during checkout."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:82
+msgid "Include Tax"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:85
+msgid "check to enable tax to this method"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:88
+msgid "Handling charge per product"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:89
+msgid "Select the mode in which you want to enter amount"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:93
+msgid "Select in which mode you want ot enter amount."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:94
+msgid "Percent"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:95
+msgid "Fixed"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:99
+msgid "Enter value of handling charge per product"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:104
+msgid "This fee is added to each and every product in the cart."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:109
+msgid "Handling charge per order"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:110
+msgid "Enable it to enter value in numeric"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:114
+msgid "Select the mode in which you want to enter amount."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:119
+msgid "Enter value of handling charge per order"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:124
+msgid "This fee is added per order."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:130
+msgid "Default shipping charge"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:133
+msgid ""
+"Default Shipping Price , applicable if product shipping price is not defined."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:136
+msgid "Specific Countries"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:142
+msgid "Select some countries"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:146
+msgid "Skip free shipping product for calculation"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:148
+msgid ""
+"If this field is set, then shipping cost will not be calculated for free "
+"shipping products."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:152
+msgid "Do you want to use category feature"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:154
+msgid "Check it to use category based feature."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:158
+msgid "Select minimum or maximum shipping value"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:160
+msgid ""
+"Check it to set minimum shipping value to be added if more then one category "
+"is assigned. Otherwise maximum value will be added."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:188
+msgid "Seleceted File is not a valid CSV file."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:196
+msgid "CSV file has some rows which has product id which do not exist."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:205
+msgid "Product Based"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:206
+msgid "Category Based"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:258
+#: includes/class-product-based-shipping.php:572
+#: includes/class-product-based-shipping.php:821
+msgid "Import Rates"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:261
+msgid ""
+"Upload product wise shipping rates to import rates into your shop. You need "
+"to choose a CSV file and click Upload."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:262
+msgid ""
+"CSV for shipping rate must be with 8 columns ( Country Code, Region/State "
+"Code, City, Zip/Postal Code, Sku, ID, Line cost, Item cost )"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:266
+msgid "Choose a CSV file:"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:272
+msgid "Maximum size:128 MB"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:275
+msgid "Export Demo CSV"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:281
+msgid "Override Previous Shipping Detail"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:285
+#: includes/product-based-shipping-options.php:666
+msgid "Check to replace with previous Shipping Details"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:288
+msgid ""
+"( By Default Shipping Detail will be added with previous Shipping Detail )"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:301
+#: includes/product-based-shipping-options.php:487
+msgid "Add Rates"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:308
+msgid "You can get country and state code from "
+msgstr ""
+
+#: includes/product-based-shipping-options.php:308
+#: includes/product-based-shipping-options.php:495
+msgid "Here"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:313
+#: includes/product-based-shipping-options.php:500
+msgid "Countries"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:326
+#: includes/product-based-shipping-options.php:513
+msgid "States"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:340
+#: includes/product-based-shipping-options.php:527
+#: includes/class-product-based-shipping.php:568
+#: includes/class-product-based-shipping.php:817
+msgid "Data would not be saved if you left any field blank except city "
+msgstr ""
+
+#: includes/product-based-shipping-options.php:347
+#: includes/product-based-shipping-options.php:534
+#: includes/class-product-based-shipping.php:133
+#: includes/class-product-based-shipping.php:221
+#: includes/class-product-based-shipping.php:604
+#: includes/class-product-based-shipping.php:636
+#: includes/class-product-based-shipping.php:852
+#: includes/class-product-based-shipping.php:882
+#: includes/class-product-based-shipping.php:1091
+#: includes/class-product-based-shipping.php:1110
+msgid "Country Code"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:350
+#: includes/product-based-shipping-options.php:537
+#: includes/class-product-based-shipping.php:135
+#: includes/class-product-based-shipping.php:223
+#: includes/class-product-based-shipping.php:607
+#: includes/class-product-based-shipping.php:639
+#: includes/class-product-based-shipping.php:855
+#: includes/class-product-based-shipping.php:885
+#: includes/class-product-based-shipping.php:1092
+#: includes/class-product-based-shipping.php:1111
+msgid "State Code"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:353
+#: includes/product-based-shipping-options.php:395
+#: includes/product-based-shipping-options.php:540
+#: includes/product-based-shipping-options.php:579
+#: includes/class-product-based-shipping.php:137
+#: includes/class-product-based-shipping.php:225
+#: includes/class-product-based-shipping.php:581
+#: includes/class-product-based-shipping.php:610
+#: includes/class-product-based-shipping.php:642
+#: includes/class-product-based-shipping.php:830
+#: includes/class-product-based-shipping.php:858
+#: includes/class-product-based-shipping.php:888
+msgid "City"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:356
+#: includes/product-based-shipping-options.php:543
+#: includes/class-product-based-shipping.php:139
+#: includes/class-product-based-shipping.php:227
+#: includes/class-product-based-shipping.php:613
+#: includes/class-product-based-shipping.php:645
+#: includes/class-product-based-shipping.php:861
+#: includes/class-product-based-shipping.php:891
+#: includes/class-product-based-shipping.php:1094
+#: includes/class-product-based-shipping.php:1113
+msgid "Zip Code"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:366
+#: includes/product-based-shipping-options.php:553
+#: includes/class-product-based-shipping.php:617
+#: includes/class-product-based-shipping.php:648
+#: includes/class-product-based-shipping.php:864
+#: includes/class-product-based-shipping.php:894
+#: includes/class-product-based-shipping.php:1095
+#: includes/class-product-based-shipping.php:1114
+msgid "Line Cost"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:369
+#: includes/product-based-shipping-options.php:556
+#: includes/class-product-based-shipping.php:620
+#: includes/class-product-based-shipping.php:651
+#: includes/class-product-based-shipping.php:867
+#: includes/class-product-based-shipping.php:897
+#: includes/class-product-based-shipping.php:1096
+#: includes/class-product-based-shipping.php:1115
+msgid "Item Cost"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:381
+#: includes/product-based-shipping-options.php:570
+msgid "List Rates"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:388
+#: includes/class-product-based-shipping.php:573
+#: includes/class-product-based-shipping.php:822
+msgid "Export Rates"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:393
+#: includes/product-based-shipping-options.php:577
+#: includes/class-product-based-shipping.php:579
+#: includes/class-product-based-shipping.php:828
+msgid "Country"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:394
+#: includes/product-based-shipping-options.php:578
+#: includes/class-product-based-shipping.php:580
+#: includes/class-product-based-shipping.php:829
+msgid "Region/State"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:396
+#: includes/product-based-shipping-options.php:580
+#: includes/class-product-based-shipping.php:582
+#: includes/class-product-based-shipping.php:831
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:397
+msgid "Product"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:398
+#: includes/product-based-shipping-options.php:582
+#: includes/class-product-based-shipping.php:141
+#: includes/class-product-based-shipping.php:229
+#: includes/class-product-based-shipping.php:583
+#: includes/class-product-based-shipping.php:832
+msgid "Line cost"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:399
+#: includes/product-based-shipping-options.php:583
+#: includes/class-product-based-shipping.php:584
+#: includes/class-product-based-shipping.php:833
+msgid "Item cost"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:407
+#: includes/product-based-shipping-options.php:591
+#: includes/class-product-based-shipping.php:592
+#: includes/class-product-based-shipping.php:841
+msgid "Delete Rates"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:495
+msgid "You can get country and state codes from "
+msgstr ""
+
+#: includes/product-based-shipping-options.php:581
+msgid "Category"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:634
+msgid "Edit"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:646
+msgid ""
+"Hi There ! Upload a CSV file containing shipping rates to Import the "
+"contents into your shop. Choose a CSV file to upload, then click \"Upload\"."
+msgstr ""
+
+#: includes/product-based-shipping-options.php:647
+msgid ""
+"CSV for shipping rate must be with 7 columns ( Country Code, Region/State "
+"Code, City, Zip/Postal Code, SKU, ID,  Line Cost, Item Cost )"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:651
+msgid "Choose a file from your Computer:"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:658
+msgid "Maximum size:"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:662
+msgid "Override Previous Shipping Details"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:669
+msgid ""
+"( By Default Shipping Details will be added with previous Shipping Details )"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:763
+#: includes/product-based-shipping-options.php:917
+msgid "Skipped"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:763
+msgid ""
+"products shipping rate (most likely due to non existing sku, or empty sku)"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:769
+msgid "Imported"
+msgstr ""
+
+#: includes/product-based-shipping-options.php:917
+msgid ""
+"Products shipping rate (most likely due to non existing sku, or empty sku)"
+msgstr ""
+
+#: includes/class-product-based-shipping.php:143
+#: includes/class-product-based-shipping.php:231
+msgid "Item Code"
+msgstr ""
+
+#: includes/class-product-based-shipping.php:545
+msgid ""
+"Upload product based shipping rates for variations to import into your shop. "
+"You need to choose a CSV file and click \"Upload\"."
+msgstr ""
+
+#: includes/class-product-based-shipping.php:546
+msgid "Shipping rate must be with 7 columns"
+msgstr ""
+
+#: includes/class-product-based-shipping.php:547
+#: includes/class-product-based-shipping.php:796
+msgid "Choose a CSV file: "
+msgstr ""
+
+#: includes/class-product-based-shipping.php:552
+msgid "Maximum size: 128 MB"
+msgstr ""
+
+#: includes/class-product-based-shipping.php:591
+#: includes/class-product-based-shipping.php:840
+msgid "Insert Rates"
+msgstr ""
+
+#: includes/class-product-based-shipping.php:786
+msgid "Check to enable."
+msgstr ""
+
+#: includes/class-product-based-shipping.php:794
+msgid ""
+"Upload product wise shipping rates to import into your shop. You need to "
+"choose a CSV file and click \"Upload\"."
+msgstr ""
+
+#: includes/class-product-based-shipping.php:795
+msgid "Shipping rate must be with 6 columns"
+msgstr ""
+
+#: includes/class-product-based-shipping.php:801
+msgid "Maximum size: "
+msgstr ""
+
+#: includes/class-product-based-shipping.php:1087
+#: includes/class-product-based-shipping.php:1106
+msgid "Delete the selected rows"
+msgstr ""
+
+#: includes/class-product-based-shipping.php:1090
+#: includes/class-product-based-shipping.php:1109
+msgid "Please choose a CSV file."
+msgstr ""
+
+#: includes/class-product-based-shipping.php:1093
+#: includes/class-product-based-shipping.php:1112
+msgid "City Code"
+msgstr ""
+
+#: includes/class-product-based-shipping.php:1097
+#: includes/class-product-based-shipping.php:1116
+msgid "Please fill all required fields"
+msgstr ""
+
+#: includes/class-product-based-shipping.php:1098
+#: includes/class-product-based-shipping.php:1117
+msgid "No states found"
+msgstr ""
